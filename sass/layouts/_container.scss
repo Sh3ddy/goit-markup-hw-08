@@ -1,0 +1,61 @@
+
+.container {
+	.amount-container  {
+	@media screen and (max-width: 767px) {
+		display: none;
+		background-color: #ffffff;
+		padding: 20px;
+		left: 0;
+		top: 0;
+        width: 100%;
+		height: 600px;
+		font-size: 20px;
+		position: absolute;
+		&.is-open {
+			width: 100%;
+			height: 100%;
+			display: block;
+			overflow-y: scroll;
+			position: fixed;
+			z-index: 999;
+			padding-left: 40px;
+		}
+	}
+	@media screen and (min-width: 768px) {
+			display: none;
+		}
+	@media screen and (min-width: 1140px) {
+			display: none;
+		}
+	}
+	@media screen and (min-width: 320px) {
+		padding-left: 15px;
+        padding-right: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	 }
+
+	@media screen and (max-width: 767px) {
+		max-width: 480px;
+		padding-left: 15px;
+        padding-right: 15px;
+		margin-left: auto;
+		margin-right: auto;
+
+	 }
+
+	@media screen and (min-width: 768px) {
+		max-width: 768px;
+		padding-left: 15px;
+        padding-right: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	@media screen and (min-width: 1140px) {
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: center;
+		}
+}
