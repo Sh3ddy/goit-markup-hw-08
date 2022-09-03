@@ -787,6 +787,7 @@
     background-color: #ffffff;
     padding: 20px;
     overflow: hidden;
+    display: none;
     left: 0;
     top: 0;
     width: 100%;
@@ -800,6 +801,7 @@
     height: 100%;
     opacity: 1;
     overflow-y: scroll;
+    display: block;
     position: fixed;
     z-index: 999;
     padding-left: 40px;
