@@ -86,7 +86,7 @@
 }
 @media screen and (max-width: 767px) {
   .header__nav-button.is-open .header__nav-close {
-    display: block;
+    opacity: 1;
   }
 }
 .header__nav-ref {
@@ -337,8 +337,6 @@
 @media screen and (max-width: 767px) {
   .features__list {
     width: 100%;
-    margin-left: 5px;
-    margin-right: 5px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1421,6 +1419,7 @@
     opacity: 0;
     background-color: #ffffff;
     padding: 20px;
+    overflow: hidden;
     left: 0;
     top: 0;
     width: 100%;

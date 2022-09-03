@@ -72,7 +72,7 @@
 	&:hover {
 		fill: #2196F3;
 	}
-		}
+}
 		
 	@media screen and (min-width: 768px) {
 			display: none;
@@ -84,7 +84,7 @@
 	}
 	@media screen and (max-width: 767px) {
 	&__nav-button.is-open  .header__nav-close {
-		display: block;
+		opacity: 1;
 		}
 	}
 	&__nav-ref {
@@ -220,6 +220,7 @@
 			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		}
 	}
+
 	&__nav-close {
 
        &:hover {
